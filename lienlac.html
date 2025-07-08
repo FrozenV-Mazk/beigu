@@ -1,0 +1,112 @@
+<!-- thongtin.html -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Liên lạc</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+     body {
+      background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTNmZ3V2NGdkNzlma2RscHI0Y3JxdnNlaXJ5MzV3Y3liM2U0MW5uMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xWMPYx55WNhX136T0V/giphy.gif');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #000;
+    }
+    .info-heading {
+      background-color: #000;
+      color: #fff;
+      padding: 15px 0;
+      margin: 0;
+      width: 100%;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.233);
+  backdrop-filter: blur(6px);
+}
+.blur-box {
+  background-color: rgba(50, 50, 50, 0.5);     
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 500px;       
+  margin: 40px auto;      
+}
+.menu {
+  background-color: #000; /* nền đen đặc */
+}
+
+
+.menu {
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+    }
+
+    .menu-right a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      margin-left: 10px;
+      border-radius: 5px;
+    }
+
+    .menu-right a:hover {
+      background-color: #575757;
+    }
+.footer {
+     background-color: rgba(0, 0, 0, 0.7);
+     text-align: center;
+     padding: 20px;
+     color: #ccc;
+     font-size: 14px;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+     margin-top: 50px;
+     border-top: 1px solid #444;
+}
+  </style>
+</head>
+<body class="bg-light text-dark">
+  <div class="menu">
+    <div class="menu-right">
+      <a href="trangchu.html#" target="_parent">Màn hình chính</a>
+      <a href="hoatdong.html" target="_parent">Hoạt động</a>
+      <a href="thongtin.html" target="_parent">Thông tin</a>
+      <a href="lienlac.html" target="_parent">Liên lạc</a>
+    </div>
+  </div>
+
+ <div class="blur-box text-white">
+  <h2 class="info-heading text-center mb-4">Liên lạc</h2>
+  <div class="mb-4 text-center">
+    <p><strong>Email:</strong> <a href="mailto:thuan220211@gmail.com" class="text-white">thuan220211@gmail.com</a></p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/thuan.huyn.31" target="_blank" class="text-white">Bình Thuận</a></p>
+  </div>
+
+  <form>
+    <label for="gmail">Địa chỉ Gmail:</label><br>
+    <input type="email" class="form-control" id="gmail" placeholder="Nhập địa chỉ Gmail của bạn..."><br>        
+  </form>
+
+  <form>
+    <label for="message">Lời nhắn:</label><br>
+    <textarea class="form-control" id="message" rows="5" placeholder="Nhập nội dung liên hệ..."></textarea><br>
+
+    <input type="checkbox" id="agree">
+    <label for="agree">Tôi đồng ý với các điều khoản liên hệ.</label><br><br>
+
+    <button type="submit" class="btn btn-primary w-100">Gửi liên hệ</button>
+  </form>
+</div>
+    <div class="footer">
+      <p>&copy; 2025 Huỳnh Bình Thuận. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
